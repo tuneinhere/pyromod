@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyromod"
+version = "1.5"
+description = "A monkeypatcher add-on for Pyrogram that does conversation handling"
+authors = [
+    {name="Pauxis"}
+]
+dependencies = ["pyrogram>=2.0"]
